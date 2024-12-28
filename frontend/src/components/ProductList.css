@@ -1,0 +1,17 @@
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+}
+
+.no-products {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+}
