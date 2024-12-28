@@ -30,14 +30,13 @@ Sistema web para gestão de produtos com funcionalidades de cadastro, edição, 
 
 ### Backend
 - Java Spring Boot
-- MySQL
+- H2 Database (in-memory)
 - RESTful API
 
 ## 📋 Pré-requisitos
 
 - Node.js (versão 14 ou superior)
 - Java JDK 11 ou superior
-- MySQL
 - Maven
 
 ## 🔧 Instalação
@@ -50,25 +49,17 @@ git clone [URL_DO_REPOSITÓRIO]
 cd PVD
 ```
 
-2. Configure o banco de dados MySQL:
-```bash
-# Crie um banco de dados chamado 'pvd'
-mysql -u root -p
-CREATE DATABASE pvd;
-```
-
-3. Configure as credenciais do banco no arquivo `application.properties`:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/pvd
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-```
-
-4. Execute o backend:
+2. Execute o backend:
 ```bash
 cd backend
 mvn spring-boot:run
 ```
+
+O banco de dados H2 será criado automaticamente em memória quando a aplicação iniciar.
+Você pode acessar o console do H2 em `http://localhost:8080/h2-console` com as seguintes credenciais:
+- JDBC URL: jdbc:h2:mem:productdb
+- Username: sa
+- Password: [deixe em branco]
 
 ### Frontend
 

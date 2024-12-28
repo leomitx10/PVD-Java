@@ -1,16 +1,16 @@
-# Compiled class files
+
 *.class
 
-# Log files
+
 *.log
 
-# BlueJ files
+
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+
 .mtj.tmp/
 
-# Package Files
+
 *.jar
 *.war
 *.nar
@@ -19,24 +19,24 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs
+
 hs_err_pid*
 replay_pid*
 
-# IDE specific files
+
 .idea/
 .vscode/
 *.iml
 *.iws
 *.ipr
 
-# Eclipse specific files
+
 .classpath
 .project
 .settings/
 bin/
 
-# Maven
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -44,11 +44,11 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
-# Gradle
+
 .gradle/
 build/
 
-# OS specific files
+
 .DS_Store
 .DS_Store?
 ._*
